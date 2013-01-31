@@ -12,7 +12,7 @@ require('functions.php');
 	<!-- Bootstrap CSS -->
 		<link><link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 		
-		<!-- My Bands CSS -->
+		<!-- My Teams CSS -->
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		
 		<title>My Teams</title>
