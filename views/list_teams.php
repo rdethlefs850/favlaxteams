@@ -29,7 +29,7 @@ foreach($lines as $line) {
 	echo "<td>$team</td>";
 	echo "<td>$ranking</td>";
 	echo "<td>$num_games</td>";
-	echo "<td><a href=\"./?p=form_edit_team&team=$i\">Edit</a> <a href=\"#\">Delete</a></td>";
+	echo "<td><a href=\"./?p=form_edit_team&team=$i\">Edit</a> <a href=\"./actions/delete_team.php?linenum=$i\">Delete</a></td>";
 	echo '</tr>';
 	
 	$i++; //Increment line number
