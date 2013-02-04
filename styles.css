@@ -1,6 +1,6 @@
 body {
 	font-family:Tahoma,Times-New-Roman;
-	background-color:#E6FAE6;
+	background-color:#F0FFD1;
 }
 
 .table th {
@@ -12,13 +12,20 @@ body {
 	border-bottom:1px solid black;
 }
 
+.delete {
+	color:red;
+}
+
 footer {
 	font-size:17px;
 	font-family:Times-New-Roman;
 }
 
 .form-actions {
-	background-color:#E6FAE6;
+	background-color:#F0FFD1;
 	border:none;
 }
 
+#wrapper nav li.active a {
+	color:green;
+}

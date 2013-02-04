@@ -19,8 +19,12 @@ if($_POST['team_name'] != '' && $_POST['team_ranking'] != '' && $_POST['team_num
 	$_SESSION['POST'] = $_POST;
 	
 	//Store error message in session data
-	$_SESSION['message'] = 'Please enter all required information';
+	$_SESSION['message'] = array (
+		'text' => 'Please enter all required information correctly',
+		'type' => 'block'
+	);
 	
 	//Redirect to the form
 	header('Location:../?p=form_add_team');
+
 }
