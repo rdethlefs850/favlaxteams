@@ -724,7 +724,7 @@ h6 {
   font-family: inherit;
   font-weight: bold;
   line-height: 20px;
-  color: inherit;
+  color: green;
   text-rendering: optimizelegibility;
 }
 
@@ -2115,7 +2115,7 @@ table {
 
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
-  background-color: #f5f5f5;
+  background-color: #66FF33;
 }
 
 table td[class*="span"],

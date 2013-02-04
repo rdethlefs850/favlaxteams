@@ -23,6 +23,6 @@
 
 	<div class="form-actions">
 		<button type="submit" class="btn btn-success">Add Team</button>
-		<button type="button" class="btn">Cancel</button>
+		<button type="button" class="btn" onclick= "window.history.go(-1)">Cancel</button>
 	</div>
 </form>
