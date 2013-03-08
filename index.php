@@ -15,7 +15,7 @@ require('functions.php');
 		<!-- My Teams CSS -->
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		
-		<title>My Teams</title>
+		<title>My Cars</title>
 	</head>
 	<body>
 		<div id="wrapper" class="container">

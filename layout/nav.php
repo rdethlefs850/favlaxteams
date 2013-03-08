@@ -3,10 +3,10 @@
 if(isset($_GET['p'])) {
 	$p = $_GET['p'];
 } else {
-	$p = 'list_teams';
+	$p = 'list_cars';
 }
 
-if($p == 'list_teams') {
+if($p == 'list_cars') {
 	$list_class = 'active';
 	$form_add_class = '';
 } else {
@@ -17,10 +17,10 @@ if($p == 'list_teams') {
 
 <div class="navbar">
 	<div class="navbar-inner">
-		<a class="brand" href="./">My Teams</a>	
+		<a class="brand" href="./">My Cars</a>	
 		<ul class="nav">
-			<li class="<?php echo $list_class ?>"><a href="./?p=list_teams">Teams</a></li>
-			<li class="<?php echo $form_add_class ?>"><a href="./?p=form_add_team">Add Team</a></li>
+			<li class="<?php echo $list_class ?>"><a href="./?p=list_cars">Cars</a></li>
+			<li class="<?php echo $form_add_class ?>"><a href="./?p=form_add_car">Add Car</a></li>
 		</ul>
 	</div>
 </div>

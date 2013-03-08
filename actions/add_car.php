@@ -1,18 +1,18 @@
 <?php session_start(); ?>
 <?php //Validate that each piece of info was provided
-if($_POST['team_name'] != '' && $_POST['team_ranking'] != '' && $_POST['team_numgames'] != '') {
+if($_POST['car_name'] != '' && $_POST['car_ranking'] != '' && $_POST['car_speed'] != '') {
 	
 	//Add this team to the CSV file
 	//1 Open the file for writing
-	$f = fopen('../data/teams.csv','a');
+	$f = fopen('../data/cars.csv','a');
 	
 	//2 Write the new team's info to the file
-	fwrite($f,"\n{$_POST['team_name']},{$_POST['team_ranking']},{$_POST['team_numgames']}");
+	fwrite($f,"\n{$_POST['car_name']},{$_POST['car_ranking']},{$_POST['car_speed']}");
 	//3 Close the file
 	fclose($f);
 	
 	//Redirect to list of teams
-	header('Location:../?p=list_teams');
+	header('Location:../?p=list_car');
 	
 } else {
 	//Store submitted data into session data
@@ -25,6 +25,6 @@ if($_POST['team_name'] != '' && $_POST['team_ranking'] != '' && $_POST['team_num
 	);
 	
 	//Redirect to the form
-	header('Location:../?p=form_add_team');
+	header('Location:../?p=form_add_car');
 
 }
