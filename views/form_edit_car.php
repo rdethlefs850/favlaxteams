@@ -3,7 +3,7 @@
 $lines = file('data/cars.csv',FILE_IGNORE_NEW_LINES);
 
 //Get the line associated with the 'band' parameter in the QS
-$team = explode(',',$lines[$_GET['car']]);
+$car = explode(',',$lines[$_GET['car']]);
 ?>
 
 <h2>Edit Car</h2>

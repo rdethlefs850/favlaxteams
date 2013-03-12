@@ -25,6 +25,6 @@ if($_POST['car_name'] != '' && $_POST['car_ranking'] != '' && $_POST['car_speed'
 	);
 	
 	//Redirect to the form
-	header('Location:../?p=form_add_car');
+	header('Location:../?p=form_add_car.php');
 
 }
