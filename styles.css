@@ -1,6 +1,7 @@
 body {
 	font-family:Tahoma,Times-New-Roman;
-	background-color:#F0FFD1;
+	background-color:black;
+	color:white;
 }
 
 .table th {
@@ -22,7 +23,7 @@ footer {
 }
 
 .form-actions {
-	background-color:#F0FFD1;
+	background-color:black;
 	border:none;
 }
 

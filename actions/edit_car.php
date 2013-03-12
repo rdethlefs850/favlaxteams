@@ -4,7 +4,7 @@ session_start();
 $lines = file('../data/cars.csv',FILE_IGNORE_NEW_LINES);
 
 //Replace line with new values
-$lines[$_POST['linenum']] = "{$_POST['car_name']},{$_POST['car_ranking']},{$_POST['car_speed']}";
+$lines[$_POST['linenum']] = "{$_POST['car_name']},{$_POST['car_brand']},{$_POST['car_speed']}";
 
 //Create the string to write the file
 $data_string = implode("\n",$lines);

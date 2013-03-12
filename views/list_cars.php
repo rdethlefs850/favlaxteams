@@ -7,7 +7,7 @@ $lines = file('data/cars.csv',FILE_IGNORE_NEW_LINES);
 <thead>
 	<tr>
 		<th>Car</th>
-		<th>Ranking</th>
+		<th>Brand</th>
 		<th>Car Speed</th>
 		<th></th>
 	</tr>
@@ -23,11 +23,11 @@ $i = 0;
 foreach($lines as $line) {
 	$parts = explode(',',$line);
 	$car = $parts[0];
-	$ranking = $parts[1];
+	$brand = $parts[1];
 	$car_speed = $parts[2];
 	echo '<tr>';
 	echo "<td>$car</td>";
-	echo "<td>$ranking</td>";
+	echo "<td>$brand</td>";
 	echo "<td>$car_speed</td>";
 	echo "<td><a href=\"./?p=form_edit_car&car=$i\">Edit</a> <a class='delete', href=\"./actions/delete_car.php?linenum=$i\">Delete</a></td>";
 	echo '</tr>';

@@ -17,7 +17,7 @@ if($p == 'list_cars') {
 
 <div class="navbar">
 	<div class="navbar-inner">
-		<a class="brand" href="./">My Cars</a>	
+		<a class="brand" href="./views/home.php">My Cars</a>	
 		<ul class="nav">
 			<li class="<?php echo $list_class ?>"><a href="./?p=list_cars">Cars</a></li>
 			<li class="<?php echo $form_add_class ?>"><a href="./?p=form_add_car">Add Car</a></li>

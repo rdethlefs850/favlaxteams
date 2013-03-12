@@ -16,7 +16,7 @@ fclose($f);
 
 $_SESSION['message'] = array(
 		'text' => 'Your car has been deleted.',
-		'type' => 'success');
+		'type' => 'danger');
 
 header('location:../?p=list_cars');
 ?>

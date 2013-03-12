@@ -8,9 +8,9 @@
 	</div>
 
 	<div class="control-group">
-		<label class="control-label" for="inputEmail">Ranking</label>
+		<label class="control-label" for="inputEmail">Brand</label>
 		<div class="controls">
-		<?php echo input('car_ranking','required')?>
+		<?php echo input('car_brand','required')?>
 		</div>
 	</div>
 

@@ -17,9 +17,9 @@ $car = explode(',',$lines[$_GET['car']]);
 	</div>
 
 	<div class="control-group">
-		<label class="control-label" for="inputEmail">Ranking</label>
+		<label class="control-label" for="inputEmail">Brand</label>
 		<div class="controls">
-		<?php echo input('car_ranking','required', $car[1])?>
+		<?php echo input('car_brand','required', $car[1])?>
 		</div>
 	</div>
 

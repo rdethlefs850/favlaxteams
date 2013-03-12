@@ -8,4 +8,11 @@ if(isset($_SESSION['message'])) {
 	unset($_SESSION['message']);
 }
 
+//Store the 'p' parameter form the query string into a variable
+if(isset($_GET['p'])) {
+	$p = $_GET['p'];
+} else {
+	$p = 'list_cars';
+}
+
 include("views/$p.php");
